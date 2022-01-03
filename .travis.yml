@@ -27,7 +27,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 74298ab8-662f-43d1-aefd-80f1d75a4106 # esto se obtiene desde heroku en setting perfil
+  api_key: 
+    secure: "F06oo4DC2PetT9NUH6yOAAg6tvd/bGNyeocAwQB2lZ/vTi4tqcezL6ya1qfEO6MPqRFwetF+GgPYyT8SUURhK9s4nPI2zZ4xWPNH9Gnc/bMlSv+SSPE21d0VkJcHIHe3yK1DndEYHIz1xcdD121f/u/yntVFYA7mOcVnVyYJuI40e/0CF74ZLepbCX9Waph7YxhXISSX3013kLuyKPmMyo4QLBe0mmWnWgywKpakLXCaji6i8ixIYROqF2Y5dNiSyQekEnFo2bOOCBEA43MXHEjvc3FwNb8gKrL4Arg6Ho70EhbUwgj+H9Cp0XtMiFIOKVlKoLJcBpje5vaDHD/8Pjh/OX61vSUvXo86Zmy50bjX69Y2kosyinzRh3SSYT1Z0DVGRItb0mzc8LGv2B8iELSNngUnfyaVNNIRCSA7BCVAZaaNIhTHLefX0Q6q18uiZiHsaCBa4FxVMaJHhDRYms0GPeV8gYIqAtW0dKMO+N4oHYKvVpMbgW20lQGaCtnckDZXpAjI8PNR4WNEsgMnw9eufbdrJegmm5ZY0G1HvGvjse3cRqByRW8+lJRZY+nT+1CWEzdIgQ5XzueX5FyxvA2DL4kijZr19g18l1TuHfPebrYHH7cQSuxf6KFE0mW7M8gaH+GN4Llvs+NvLpRxIXxtGslx90lT7gj2KLysnU8=" 
   app: platzi-store-backend-eduardo
   on:
     repo: EduardoLizarazu/platzi-store-backend
