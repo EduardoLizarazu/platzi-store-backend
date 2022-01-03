@@ -1,0 +1,33 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '12'
+
+git:
+  depth: 3
+
+script:
+  - yarn test
+
+notifications:
+  slack: workspace:token
+  email:
+    reciepients:
+      - jelo2021@gmail.com
+      - chiqui_tres@hotmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 74298ab8-662f-43d1-aefd-80f1d75a4106 # esto se obtiene desde heroku en setting perfil
+  app: platzi-store-backend-eduardo
+  on:
+    repo: EduardoLizarazu/platzi-store-backend
